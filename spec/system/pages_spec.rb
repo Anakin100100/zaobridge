@@ -8,5 +8,10 @@ RSpec.describe "Pages", type: :system do
       visit root_path
       expect(page).to have_content("Zaobridge")
     end
+
+    it "redirects to the login page if the user is not logged in" do
+        visit root_path
+        expect(page).to have_content("Log In")
+    end
   end
 end
