@@ -11,11 +11,22 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body class="flex mt-8 mx-8 h-screen justify-center bg-black text-white">
+  <body>
+    <% if !user_signed_in? %>
+      <div class="flex h-screen justify-center">   
+        <%= yield %>
+      </div>
+    <% else %>
+    
+    <%= render "layouts/navbar" %>
     <div class="flex-col">
       <p class="notice"><%= notice %></p>
       <p class="alert"><%= alert %></p>
-      <%= yield %>
+      <div class="flex h-screen justify-center">
+        <%= yield %>
+      </div>
     </div>
+    
+    <% end %>
   </body>
 </html>
