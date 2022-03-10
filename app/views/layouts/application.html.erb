@@ -11,11 +11,11 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body>
-    <main>
+  <body class="flex mt-8 mx-8 h-screen justify-center bg-black text-white">
+    <div class="flex-col">
       <p class="notice"><%= notice %></p>
       <p class="alert"><%= alert %></p>
       <%= yield %>
-    </main>
+    </div>
   </body>
 </html>
