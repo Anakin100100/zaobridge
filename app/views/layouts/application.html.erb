@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
+    <%= action_cable_meta_tag %>
+    
     <%= stylesheet_link_tag "tailwind", "inter-font", "data-turbo-track": "reload" %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
@@ -19,7 +21,7 @@
     <% else %>
     
     <%= render "layouts/navbar" %>
-    <div class="flex-col">
+    <div class="flex-col ml-64">
       <div class="flex h-screen justify-center">
         <p class="notice"><%= notice %></p>
         <p class="alert"><%= alert %></p>
