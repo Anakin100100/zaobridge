@@ -88,3 +88,5 @@ group :test do
 end
 
 gem "tailwindcss-rails", "~> 2.0"
+
+gem "stimulus_reflex", "= 3.5.0.pre8"
