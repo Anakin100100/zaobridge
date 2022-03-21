@@ -1,14 +1,12 @@
 class CounterReflex < ApplicationReflex
-  def increment
-    @count = element.dataset[:count].to_i + element.dataset[:step].to_i
-  end
+  delegate :current_user, to: :connection
 
   def render_new_game_set
     morph "#main_content", render(partial: "game_sets/new_game_set")
   end
 
-  def render_2
-    morph "#main_content", render(partial: "game_sets/partial2")
+  def render_game_sets
+    morph "#main_content", render(partial: "game_sets/game_sets")
   end
 
   def render_3
