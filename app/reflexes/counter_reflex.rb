@@ -3,8 +3,8 @@ class CounterReflex < ApplicationReflex
     @count = element.dataset[:count].to_i + element.dataset[:step].to_i
   end
 
-  def render_1
-    morph "#main_content", render(partial: "game_sets/partial1")
+  def render_new_game_set
+    morph "#main_content", render(partial: "game_sets/new_game_set")
   end
 
   def render_2

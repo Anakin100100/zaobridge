@@ -1,0 +1,11 @@
+<div id="main_content">
+    <div class="bg-slate-500 ">
+        <%= form_with model: GameSet.new, class: "text-center" do |form| %>
+            <%= form.label :name %>
+            <%= form.text_field :name %><br>
+            <%= form.label :game_files %>
+            <%= form.file_field :game_files, multiple: true %><br>
+            <%= form.submit %>
+        <% end %>
+    </div>
+</div>

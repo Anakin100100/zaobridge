@@ -1,5 +1,6 @@
-<%= form_with url: game_sets_path, id: "new_game_set_form" do |f| %>
-  <%= f.label :name, "Name:", class: "mr-2" %>
-  <%= f.text_field :name, placeholder: "What is the topic of your game set?", class: "my-2 mr-2" %>
-  <%= f.submit "Save game set", class: "p-2 cursor-pointer hover:bg-green-600" %>
+<%= form_for game_set do |f| %>
+  First name: <%= f.text_field :first_name %><br />
+  Last name : <%= f.text_field :last_name %><br />
+  Biography : <%= f.text_area :biography %><br />
+  <%= f.submit %>
 <% end %>
