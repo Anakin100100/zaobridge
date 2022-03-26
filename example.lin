@@ -1,0 +1,334 @@
+
+cr|3255|cg|30 |cb|30 |jasno czerwony
+cr|21 |cg|2255|cb|224 |zielony
+cr|1255|cg|1255|cb|164 |zó³ty
+cr|4255|cg|4124|cb|4255|
+cr|5255|cg|5180|cb|50  |ciemno zó³ty
+cr|664 |cg|6255|cb|6255|niebieski
+cr|7243|cg|7252|cb|7162|piasek
+cr|8187|cg|8254|cb|8153|seledyn
+cr|9204|cg|9255|cb|9253|seledynek
+
+
+bt||mn|Svend Novrup  Hugh Kelsey ZADANIA ROZGRYWKOWE|
+cs|2|ht|f|at|^B{Level 1 ^E }|
+cs|1|ht|g|at|^B{ |ht|r|at|^E
+^E }
+|ht|f|va|4|at|
+
+^c^*GA1,A1^*N
+^c^*GA2,A2^*N 
+^c^*GA3,A3^*N
+^c^*GA4,A4^*N
+^c^*GA5,A5^*N
+^c^*GA6,A6^*N
+^c^*GA7,A7^*N
+^c^*GA8,A8^*N
+^c^*GA9,A9^*N
+^c^*GA10,A10^*N
+|cs|2|ht|f|at|^F{Level 2 ^I }
+|cs|1|ht|g|at|^F{ |ht|r|at|^I
+^I }
+|ht|g|va|4|at|
+^G^*GB11,B11^*N
+^G^*GB12,B12^*N  
+^G^*GB13,B13^*N
+^G^*GB14,B14^*N
+^G^*GB15,B15^*N
+^G^*GB16,B16^*N
+^G^*GB17,B17^*N
+^G^*GB18,B18^*N
+^G^*GB19,B19^*N
+^G^*GB20,B20^*N
+|cs|2|ht|f|at|^J{Level 3 ^M }
+|cs|1|ht|g|at|^J{ |ht|r|at|^M
+^M }
+|ht|g|va|4|at|
+^K^*GC21,C21^*N
+^K^*GC22,C22^*N
+^K^*GC23,C23^*N
+^K^*GC24,C24^*N
+^K^*GC25,C25^*N
+^K^*GC26,C26^*N
+^K^*GC27,C27^*N
+^K^*GC28,C28^*N
+^K^*GC29,C29^*N
+^K^*GC30,C30^*N
+|cs|4|ht|f|at|^N{Level 4 ^Q }
+|cs|2|ht|g|at|^N{ |ht|r|at|^Q
+^Q }
+|ht|g|va|4|at|
+^O^*GD31,D31^*N
+^O^*GD32,D32^*N  
+^O^*GD33,D33^*N
+^O^*GD34,D34^*N
+^O^*GD35,D35^*N
+^O^*GD36,D36^*N
+^O^*GD37,D37^*N
+^O^*GD38,D38^*N
+^O^*GD39,D39^*N
+^O^*GD40,D40^*N
+
+|cs|4|ht|f|at|^R{Level 5 ^U }
+|cs|2|ht|g|at|^R{ |ht|r|at|^U
+^U }
+|ht|g|va|4|at|
+^S^*GE41,E41^*N
+^S^*GE42,E42^*N  
+^S^*GE43,E43^*N
+^S^*GE44,E44^*N
+^S^*GE45,E45^*N
+^S^*GE46,E46^*N
+^S^*GE47,E47^*N
+^S^*GE48,E48^*N
+^S^*GE49,E49^*N
+^S^*GE50,E50^*N
+
+|cs|4|ht|f|at|^V{Level 6 ^Y }
+|cs|2|ht|g|at|^V{ |ht|r|at|^Y
+^Y }
+|ht|g|va|4|at|
+^w^*GF51,F51^*N
+^w^*GF52,F52^*N  
+^W^*GF53,F53^*N
+^W^*GF54,F54^*N
+^W^*GF55,F55^*N
+^W^*GF56,F56^*N
+^W^*GF57,F57^*N
+^W^*GF58,F58^*N
+^W^*GF59,F59^*N
+^W^*GF60,F60^*N
+|pg||
+
+nt||rh||ah|Twój cel:|ah|wzi¹æ 2 lewy|ah|BEZ ATU|
+qx|A1|st||md|4S73,SK6,SAQ,SJT|mb|1nppp|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz dwie lewy.|pg|| 
+pf|y|pg||
+
+nt||rh||ah|Twój cel:|ah|wzi¹æ 5 lew|ah|BEZ ATU|
+qx|A2|st||md|4H75,HAQ,HK3,JT|mb|1nppp|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz jedn¹ lewê.|pg|| 
+pf|y|pg||
+
+nt||rh||ah|Twój cel:|ah|wzi¹æ 3 lewy|ah|BEZ ATU|
+qx|A3|st||md|4D532CA,DA86C2,DKQ4C3,DJT7CK|mb|1nppp|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz trzy lewy.|pg|| 
+pf|y|pg||
+
+nt||rh||ah|Twój cel:|ah|wzi¹æ 3 lewy|ah|ATU: KIERY|
+qx|A4|st||md|4SKHA3D9,S84HTD5,H52D8C4,HQDAKC6|mb|1hppp|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz trzy lewy.|pg|| 
+pf|y|pg||
+
+nt||rh||ah|Twój cel:|ah|wzi¹æ 2 lewy|ah|BEZ ATU|
+qx|A5|st||md|4S532DT,SAQ6DA,SKJ4D3,ST87DK|mb|1nppp|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz dwie lewy.|pg|| 
+pf|y|pg||
+
+nt||rh||ah|Twój cel:|ah|wzi¹æ 3 lewy|ah|BEZ ATU|
+qx|A6|st||md|4S97DAQ,SA42D4,SK6D73,STDK52|mb|1nppp|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz trzy lewy.|pg|| 
+pf|y|pg||
+
+nt||rh||ah|Twój cel:|ah|wzi¹æ 3 lewy|ah|ATU: KIERY|
+qx|A7|st||md|4ST9H8,SA53H7D5C2,S8DACA|mb|1hppp|
+ht|b|at|Kolorem atutowym s¹ kiery. Zagrywasz z Twojej rêki, z pozycji S i bierzesz trzy lewy.|pg|| 
+pf|y|pg||
+
+nt||rh||ah|Twój cel:|ah|wzi¹æ 3 lew|ah|ATU: KIERY|
+qx|A8|st||md|4ST9H8,S84D5,H5D8C4,S7dAK|mb|1hppp|
+ht|b|at|Kolorem atutowym s¹ kiery. Zagrywasz z Twojej rêki, z pozycji S i bierzesz trzy lewy.|pg|| 
+pf|y|pg||
+
+nt||rh||ah|Twój cel:|ah|wzi¹æ 5 lew|ah|ATU: KIERY|
+qx|A9|st||md|4SKHA3D9,S84HTD5,H52D8C4,HQDAKC6|mb|1hppp|
+ht|b|at|Kolorem atutowym s¹ kiery. Zagrywasz z Twojej rêki, z pozycji S i bierzesz cztery lewy.|pg|| 
+pf|y|pg||
+
+nt||qx|A10|st||md|4S4H8D8532,S62DKQJ7,SAQJT9H5,SK873Da4|mb|1hppp|rh||ah|Twój cel: |ah|wzi¹æ 6 lew|ah|ATU : KIERY|
+ht|b|at|Kolorem atutowym s¹ trefle. Zagrywasz z Twojej rêki, z pozycji S i bierzesz szeœæ lew.|pg||
+pf|y|pg||
+
+nt||qx|B11|st||md|4S83HAQT,S76H9D5CK,SQJH85C2,ST4HKJ2|mb|1sppp|rh||ah|Twój cel: |ah|wzi¹æ 5 lew|ah|ATU : TREFLE|
+ht|b|at|Kolorem atutowym s¹ trefle. Zagrywasz z Twojej rêki, z pozycji S i bierzesz piêæ lew.|pg||
+pf|y|pg||
+
+nt||qx|B12|st||md|4SAKH6DAJ,SQ6H85C9,HKQJC53,H7DQ5CKT|mb|1dppp|rh||ah|Twój cel: |ah|wzi¹æ 5 lew|ah|ATU : KARA|
+ht|b|at|Kolorem atutowym s¹ trefle. Zagrywasz z Twojej rêki, z pozycji S i bierzesz piêæ lew.|pg||
+pf|y|pg||
+
+nt||qx|B13|st||md|4H86Ca3,HKDtCt9,D74CK4,HJDJC62|mb|1cppp|rh||ah|Twój cel: |ah|wzi¹æ 4 lewy|ah|ATU : TREFLE|
+ht|b|at|Kolorem atutowym s¹ trefle. Zagrywasz z Twojej rêki, z pozycji S i bierzesz cztery lewy.|pg||
+pf|y|pg||
+
+nt||qx|B14|st||md|4HJTDKC84,S8H643D4,S4HQ8D75,SQDt9CKQ|mb|1Hppp|rh||ah|Twój cel: |ah|wzi¹æ 5 lew|ah|ATU : KIERY|
+ht|b|at|Kolorem atutowym s¹ kiery. Zagrywasz z Twojej rêki, z pozycji S i bierzesz piêæ lew.|pg|| 
+pf|y|pg||
+
+nt||qx|B15|st||md|4S3HaQJDKC8,SQH86DJT3,SAH74DAQ4,SJHK53CKQ|mb|1Sppp|rh||ah|Twój cel: |ah|wzi¹æ 6 lew|ah|ATU : PIKI|
+ht|b|at|Kolorem atutowym s¹ piki. Zagrywasz z Twojej rêki,z pozycji S i bierzesz szeœc lew.|pg||
+pf|y|pg||
+
+nt||qx|B16|st||md|4SQJT4H83,S82HJ7DA3,S73H4D642,S96HAtDK7|mb|1Sppp|rh||ah|Twój cel: |ah|wzi¹æ 5 lew|ah|ATU : PIKI|
+ht|b|at|Kolorem atutowym s¹ PIKI. Zagrywasz z Twojej rêki,z pozycji S i bierzesz piêæ lewy.|pg||
+pf|y|pg||
+
+nt||qx|B17|st||md|4AQTHAK,S74H72DA,S832Dt5,SKJ9H85|mb|1Sppp|rh||ah|Twój cel: |ah|wzi¹æ 5 lew|ah|ATU : PIKI|
+ht|b|at|Kolorem atutowym s¹ PIKI. Zagrywasz z Twojej rêki, z pozycji S i bierzesz piêæ lew.|pg||
+pf|y|pg||
+
+nt||qx|B18|st||md|4SQTD952,S5HQDt43,S86DAKJ,SJ4DQC83|mb|1Dppp|rh||ah|Twój cel: |ah|wzi¹æ 5 lew|ah|ATU : TREFLE|
+ht|b|at|Kolorem atutowym s¹ kara. Zagrywasz z Twojej rêki, z pozycji S i bierzesz piêæ lewy.|pg||
+pf|y|pg||
+
+nt||qx|B19|st||md|4SAKHQJ95,SQ3Ht6CQ7,HAKD863Ct,SJ7DQJT4|mb|1cppp|rh||ah|Twój cel: |ah|wzi¹æ 6 lew|ah|ATU : PIKI|
+ht|b|at|Kolorem atutowym s¹ piki. Zagrywasz z Twojej rêki, z pozycji S i bierzesz szeœæ lew.|pg||
+pf|y|pg||
+
+nt||qx|B20|st||md|4H8D4CJT9,HQ7DKCK4,HKJD7C85,H42D6C73|mb|1cppp|rh||ah|Twój cel: |ah|wzi¹æ 4 lewy|ah|ATU : TREFLE|
+ht|b|at|Kolorem atutowym s¹ |cp|8|cs|5|at|{ TREFLE }|cp||at|. Zagrywasz z Twojej rêki,z pozycji S i bierzesz cztery lewy.|pg||
+pf|y|pg||
+
+nt||qx|C21|st||md|4HQJ2DAQJT,H8754D87CQ,HAK9D962C7,HtDK543Ct8|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 7 lew|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz siedem lew.|pg||
+pf|y|pg||
+
+nt||qx|C22|st||md|4SAH93DK74,St94HK2Dt,S5HA854D9,S2HQ7DQJ3|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 5 lew|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz piêæ lew.|pg||
+pf|y|pg||
+
+nt||qx|C23|st||md|4S5DAQT5,ST3D76CJ,SQDJ94C4,HADK832|mb|1cppp|rh||ah|Twój cel: |ah|wzi¹æ 5 lew|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz piêæ lew.|pg||
+pf|y|pg||
+
+nt||qx|C24|st||md|4SKT98C5,S5H8CKQ4,S62CAT9,SJ73CJ6|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 4 lewy|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz cztery lewy.|pg||
+pf|y|pg||
+
+nt||qx|C25|st||md|4CJ87,ST9CT,HQC64,H6CK5|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 2 lewy|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz dwie lewy.|pg||
+pf|y|pg||
+
+nt||qx|C26|st||md|4SQDK83C73,DT94CK98,STD5CAQ62,s92D7CJT5|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 5 lew|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz piêæ lew.|pg||
+pf|y|pg||
+
+nt||qx|C27|st||md|4S4H5DJ74CQ,D852CK64,HKD6CAJT7,SAKH63DT9|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 5 lew|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz piêæ lew.|pg||
+pf|y|pg||
+
+nt||qx|C28|st||md|4S43H9CKJ,S72HTC86,DKQJCAT,DA4C973|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 4 lewy|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz cztery lewy.|pg||
+pf|y|pg||
+
+nt||qx|C29|st||md|4D7CAK43,DJ62CT7,STHQJCJ9,H8CQ652|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 4 lewy|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz cztery lewy.|pg||
+pf|y|pg||
+
+nt||qx|C30|st||md|4S86C4,SJ5HQ,SAQ3,SK7CT|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 2 lewy|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz dwie lewy.|pg||
+pf|y|pg||
+
+nt||qx|D31|st||md|4HK43DK62,H9875DT4,HAJ6DA75,HQT2DQJ3|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 5 lewy|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz piêæ lew.|pg||
+pf|y|pg||
+
+nt||qx|D32|st||md|4HK43D762,H985DT85,HaJ6DAK4,HQT2DQJ3|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 2 lewy|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz dwie lewy.|pg||
+pf|y|pg||
+
+nt||qx|D33|st||md|4HK43DK62,H98DT853,HAJ6DA74,HQT52DQJ|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 5 lew|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz piêæ lew.|pg||
+pf|y|pg||
+
+nt||qx|D34|st||md|4SKH5DQ6C4,STH6DK6CT,S8HJDA2C7,SQH9DJTC8|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 4 lewy|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz cztery lewy.|pg||
+pf|y|pg||
+
+nt||qx|D35|st||md|4S5DTC6,SKHQ8,S8D7C5,STCJ2|mb|1dppp|rh||ah|Twój cel: |ah|wzi¹æ 2 lewy|ah|ATU : KARA|
+ht|b|at|Kolorem atutowym s¹ kara. Zagrywasz z Twojej rêki, z pozycji S i bierzesz dwie lewy.|pg||
+pf|y|pg||
+nt||qx|D36|st||md|4SA73HAQD4,SKQCKQ62,ST85H63,S42HK2D8C3|mb|1sppp|rh||ah|Twój cel: |ah|wzi¹æ 6 lew|ah|ATU : PIKI|
+ht|b|at|Kolorem atutowym s¹ piki. Zagrywasz z Twojej rêki, z pozycji S i bierzesz szeœæ lew.|pg||
+pf|y|pg||
+
+nt||qx|D37|st||md|4S753H6D63,S82DQ54CT,H8DAJT9C6,SAKDK72|mb|1hppp|rh||ah|Twój cel: |ah|wzi¹æ 5 lew|ah|ATU : KIERY|
+ht|b|at|Kolorem atutowym s¹ kiery. Zagrywasz z Twojej rêki, z pozycji S i bierzesz piêæ lew.|pg||
+pf|y|pg||
+
+nt||qx|D38|st||md|4HAT3CQT,S9H52C73,S2H94C86,HK76CJ4|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 4 lewy|ah|BEZ ATU|
+ht|b|at|Kolorem atutowym s¹ piki. Zagrywasz z Twojej rêki, z pozycji S i bierzesz cztery lewy.|pg||
+pf|y|pg||
+
+nt||qx|D39|st||md|4HJ43DK65,HAT8DQT7,HQ76DA43,HK95DJ98|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 3 lewy|ah|BEZ ATU|
+ht|b|at|Kolorem atutowym s¹ piki. Zagrywasz z Twojej rêki, z pozycji S i bierzesz trzy lewy.|pg||
+pf|y|pg||
+
+nt||qx|D40|st||md|4HTD763CT4,SKJD984C7,H7DAK2CKJ,SADQJTCQ5|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 5 lew|ah|ATU : KIERY|
+ht|b|at|Kolorem atutowym s¹ kiery. Zagrywasz z Twojej rêki, z pozycji S i bierzesz piêæ lew.|pg||
+pf|y|pg||
+
+nt||qx|E41|st||md|4S73HAT74,HQ9CQJ76,SAKH862DQ,S94HK5DT3|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 5 lew|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz piêæ lew.|pg||
+pf|y|pg||
+
+nt||qx|E42|st||md|4SKH5C2,HT6DQ,HQ3D8,S63C8|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 3 lewy|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz trzy lewy.|pg||
+pf|y|pg||
+
+nt||qx|E43|st||md|1aA92H64C2,SKQJ6H95,S3HKQJ3CK,S85HA72C4|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 4 lewy|ah|BEZ ATU|
+ht|b|at|Obroñca W wistuje @SK. Bierzesz - jako S - cztery lewy.|pg||
+pf|y|pg||
+
+nt||qx|E44|st||md|1SAJ2HAQD8,SKq4HK43,S8DJTCQ74,H7D96CKJ5|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 5 lew|ah|BEZ ATU|
+ht|b|at|Obroñca W wistuje @SK. Bierzesz - jako S - piêæ lew.|pg||
+pf|y|pg||
+
+nt||qx|E45|st||md|1SAKHKQ3D2,S9HA62DJ4,STHJT7D98,S83H4DA63|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 4 lewy|ah|ATU : PIKI|
+ht|b|at|Kolorem atutowym s¹ piki. Zagrywasz z Twojej rêki, z pozycji W i bierzecie razem z partnerem cztery lewy.|pg||
+pf|y|pg||
+
+nt||qx|E46|st||md|1S6HKQDQJ4,S43H92D72,SAK8H8D98,S97H5DAK6|mb|1hppp|rh||ah|Twój cel: |ah|wzi¹æ 3 lewy|ah|ATU : KIERY|
+ht|b|at|Kolorem atutowym s¹ kiery. Zagrywasz z Twojej rêki, z pozycji W i bierzecie razem z partnerem trzy lewy.|pg||
+pf|y|pg||
+
+nt||qx|E47|st||md|1S9H8DA5CA,HAKQ2D7,SATH63C3,S64HTC85|mb|1dppp|rh||ah|Twój cel: |ah|wzi¹æ 2 lewy|ah|ATU : KARO|
+ht|b|at|Kolorem atutowym s¹ kara. Zagrywasz z Twojej rêki, z pozycji W i bierzecie razem z partnerem dwie lewy.|pg||
+pf|y|pg||
+
+nt||qx|E48|st||md|1S4HAQ3DK,SA63HJ4,SQ7H9D93,S8HTD85C2|mb|1hppp|rh||ah|Twój cel: |ah|wzi¹æ 2 lewy|ah|AT : KIERY|
+ht|b|at|Kolorem atutowym s¹ kiery. Zagrywasz z Twojej rêki, z pozycji W i bierzecie z partnerem  dwie lewy.|pg||
+pf|y|pg||
+
+nt||qx|E49|st||md|1H5DJ6CK,H7D9C84,STHJC72,HK8C65|mb|1dppp|rh||ah|Twój cel: |ah|wzi¹æ 2 lewy|ah|ATU : KARO|
+ht|b|at|Kolorem atutowym s¹ kara. Zagrywasz z Twojej rêki, z pozycji W i bierzecie z partnerem  dwie lewy.|pg||
+pf|y|pg||
+
+nt||qx|E50|st||md|1SKQ84H973,S65HKQ4DACA,ST7H8DT62C9,HJT2DJ7CT6|mb|1sppp|rh||ah|Twój cel: |ah|wzi¹æ 3 lewy|ah|ATU : PIKI|
+ht|b|at|Kolorem atutowym s¹ piki. Zagrywasz z Twojej rêki, z pozycji W i bierzesz z partnerem trzy lewy.|pg||
+pf|y|pg||
+
+nt||qx|F51|st||md|1HKQ8CQJT,HA3D76C84,H9DKQC965,H7D85CK73|mb|1hppp|rh||ah|Twój cel: |ah|wzi¹æ 3 lewy|ah|ATU : KIERY|
+ht|b|at|Kolorem atutowym s¹ kiery. Zagrywasz z Twojej rêki, z pozycji W i strona WE bierze 3 lewy.|pg||
+pf|y|pg||
+
+nt||qx|F52|st||md|1SKHAK3DAQ,H6DT6CKQT,H5D92Ca86,HQ7DK8C73|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 1 lewê|ah|BEZ ATU|
+ht|b|at|Gramy w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji W i strona WE bierze 1 lewê.|pg||
+pf|y|pg||
+nt||qx|F53|st||md|1HA3D64CQ5,HKQTD8CJ4,H75DQJ93,H6DA72CT9|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 3 lewy|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji W i strona WE bierze 3 lewy.|pg||
+pf|y|pg||
+
+nt||qx|F54|st||md|4HKJ94DQ,HQ73D64,HA62D93,HT85DJ5|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 5 lew|ah|BEZ ATU|
+ht|b|at|Grasz w BEZ ATU. Zagrywasz z Twojej rêki, z pozycji S i bierzesz piêæ lew.|pg||
+pf|y|pg||
+
+
+nt||qx|F55|st||md|2SQTDQ8C5,SJ4DK4C3,DA6C987,S632DJCT,|mb|1nppp|rh||ah|Twój cel: |ah|wzi¹æ 2 lewy|ah|ATU : PIKI|
+ht|b|at|Kolorem atutowym s¹ piki. Wistujesz z Twojej rêki, z pozycji W i bierzesz dwie lewy.|pg||
+pf|y|pg||
+
+nt||qx|F56|st||md|4SA2DT8CKJ9,SK43H6D65CT,S65H82D743,H7D92CAQ87|mb|1sppp|rh||ah|Twój cel: |ah|wzi¹æ 6 lew|ah|ATU : KIERY|
+ht|b|at|Kolorem atutowym s¹ piki. Zagrywasz z Twojej rêki, z pozycji S i bierzesz szeœæ lew.|pg||
+pf|y|pg||
+

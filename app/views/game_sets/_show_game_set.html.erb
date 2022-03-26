@@ -1,0 +1,7 @@
+<div id="main_content">
+    <div class="pb-4">     
+        <% game_set.game_files.each do |game_file| %>
+            <%= render "game_sets/game", game_file: game_file %>
+        <% end %>
+    </div>
+</div>

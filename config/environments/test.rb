@@ -52,6 +52,9 @@ Rails.application.configure do
   # Tell Active Support which deprecation messages to disallow.
   config.active_support.disallowed_deprecation_warnings = []
 
+  config.action_controller.perform_caching = true
+  config.cache_store = :redis_cache_store, {driver: :hiredis, url: Rails.application.credentials.redis_url}
+
   # Raises error for missing translations.
   # config.i18n.raise_on_missing_translations = true
 

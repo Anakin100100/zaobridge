@@ -1,11 +1,20 @@
 <div id="main_content">
-    <div class="bg-slate-500 ">
-        <%= form_with model: GameSet.new, class: "text-center" do |form| %>
-            <%= form.label :name %>
-            <%= form.text_field :name %><br>
-            <%= form.label :game_files %>
-            <%= form.file_field :game_files, multiple: true %><br>
-            <%= form.submit %>
+    <h1 class="text-center font-semibold m-2">
+        New game set
+    </h1>
+    <div class="bg-slate-300 rounded-md p-4">
+        <%= form_with model: game_set, class: "text-center" do |form| %>
+            <div>
+                <%= form.label :name, class: "block mb-2" %>
+                <%= form.text_field :name, class: "shadow appearance-none border rounded py-2 px-3 leading-tight focus:outline-none focus:shadow-outline" %><br>
+            </div>
+            <div>
+                <%= form.label :game_files, class: "block mt-2"  %>
+                <%= form.file_field :game_files, multiple: true, class: "relative cursor-pointer bg-white rounded-md font-medium text-blue-600 hover:text-blue-500 focus-within:outline-none focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-blue-500 p-2" %><br>
+            </div>
+            <button class="py-1 mt-4 px-2 bg-green-300 hover:bg-green-500 rounded-md">
+                <%= form.submit%>
+            </button>
         <% end %>
     </div>
 </div>

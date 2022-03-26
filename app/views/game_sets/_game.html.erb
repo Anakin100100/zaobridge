@@ -1,0 +1,17 @@
+<div class="m-2">
+    <div class="grid grid-cols-6 grid-rows-4 m-4 bg-transparent rounded-lg bg-orange-400">
+        <div class=" row-span-4 col-span-3 h-[30rem] w-[15rem] flex justify-center items-center">
+            <p>ROZDANIE</p>
+        </div>
+        <div class=" row-span-2  col-span-3 h-[15rem] w-[30rem] col-start-4 flex justify-center items-center">
+            <div class="flex-col space-y-2">
+                <% for card_color in ["Spades", "Hearts", "Diamonds", "Clubs"] %>
+                    <%= render "game_sets/card_row", card_color: card_color %>
+                <% end %>
+            </div>
+        </div>
+        <div class="row-span-2 col-span-3 h-[15rem] w-[30rem] col-start-4 row-start-3 flex justify-center items-center">
+            <p>LICYTACJA</p>
+        </div>
+    </div>
+</div>
