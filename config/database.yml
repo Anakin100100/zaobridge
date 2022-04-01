@@ -85,5 +85,3 @@ test:
 production:
   <<: *default
   database: employee_recognition_production
-  username: employee_recognition
-  password: <%= ENV['DATABASE_PASSWORD'] %>
