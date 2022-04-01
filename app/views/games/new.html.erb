@@ -1,0 +1,94 @@
+<div>
+    <h1 class="text-center font-semibold m-2">
+        New game  
+    </h1>
+    <div class="p-2 bg-gray-400 rounded-lg">
+        <%= form_with model: @game do |form| %>
+            <%= form.hidden_field :game_set_id, value: @game.game_set_id %>
+            <div class="flex flex-row justify-between space-x-2 w-full">
+                <div class="flex flex-col w-full space-y-2">
+                    <h3 class="text-center">N</h3>
+                    <%= form.label :Spades, class: "text-sm text-center" %>
+                    <%= form.text_field :n_spades, class: "py-1 px-2 rounded-md", size: "3x5" %>
+                    <%= form.label :Hearts, class: "text-sm text-center" %>
+                    <%= form.text_field :n_hearts, class: "py-1 px-2 rounded-md", size: "3x5" %>
+                    <%= form.label :Diamonds, class: "text-sm text-center" %>
+                    <%= form.text_field :n_diamonds, class: "py-1 px-2 rounded-md", size: "3x5" %>
+                    <%= form.label :Clubs, class: "text-sm text-center" %>
+                    <%= form.text_field :n_clubs, class: "py-1 px-2 rounded-md", size: "3x5" %>
+                </div>
+                <div class="flex flex-col  w-full space-y-2">
+                    <h3 class="text-center">E</h3>
+                    <%= form.label :Spades, class: "text-sm text-center" %>
+                    <%= form.text_field :e_spades, class: "py-1 px-2 rounded-md", size: "3x5" %>
+                    <%= form.label :Hearts, class: "text-sm text-center" %>
+                    <%= form.text_field :e_hearts, class: "py-1 px-2 rounded-md", size: "3x5" %>
+                    <%= form.label :Diamonds, class: "text-sm text-center" %>
+                    <%= form.text_field :e_diamonds, class: "py-1 px-2 rounded-md", size: "3x5" %>
+                    <%= form.label :Clubs, class: "text-sm text-center" %>
+                    <%= form.text_field :e_clubs, class: "py-1 px-2 rounded-md", size: "3x5" %>
+                </div>
+                <div class="flex flex-col  w-full space-y-2">
+                    <h3 class="text-center">S</h3>
+                    <%= form.label :Spades, class: "text-sm text-center" %>
+                    <%= form.text_field :s_spades, class: "py-1 px-2 rounded-md", size: "3x5" %>
+                    <%= form.label :Hearts, class: "text-sm text-center" %>
+                    <%= form.text_field :s_hearts, class: "py-1 px-2 rounded-md", size: "3x5" %>
+                    <%= form.label :Diamonds, class: "text-sm text-center" %>
+                    <%= form.text_field :s_diamonds, class: "py-1 px-2 rounded-md", size: "3x5" %>
+                    <%= form.label :Clubs, class: "text-sm text-center" %>
+                    <%= form.text_field :s_clubs, class: "py-1 px-2 rounded-md", size: "3x5" %>
+                </div>
+                <div class="flex flex-col  w-full space-y-2">
+                    <h3 class="text-center">W</h3>
+                    <%= form.label :Spades, class: "text-sm text-center" %>
+                    <%= form.text_field :w_spades, class: "py-1 px-2 rounded-md", size: "3x5" %>
+                    <%= form.label :Hearts, class: "text-sm text-center" %>
+                    <%= form.text_field :w_hearts, class: "py-1 px-2 rounded-md", size: "3x5" %>
+                    <%= form.label :Diamonds, class: "text-sm text-center" %>
+                    <%= form.text_field :w_diamonds, class: "py-1 px-2 rounded-md", size: "3x5" %>
+                    <%= form.label :Clubs, class: "text-sm text-center" %>
+                    <%= form.text_field :w_clubs, class: "py-1 px-2 rounded-md", size: "3x5" %>
+                </div>
+            </div>
+            <div class="my-2 grid grid-cols-2 grid-rows-1">
+                <div class="flex flex-col justify-center">
+                    <h3 class="text-center">Dealer</h3>
+                    <div>
+                        <div class="field flex flex-row justify-between space-x-2">
+                            <div>
+                                <%= form.label :dealer, "N", :value => "N" %>
+                                <%= form.radio_button :dealer, "N", :checked => false %>
+                            </div>
+                            <div>
+                                <%= form.label :dealer, "E", :value => "E" %>
+                                <%= form.radio_button :dealer, "E", :checked => false %>
+                            </div>
+                            <div>
+                                <%= form.label :dealer, "S", :value => "S" %>
+                                <%= form.radio_button :dealer, "S", :checked => false %>
+                            </div>
+                            <div>
+                                <%= form.label :dealer, "W", :value => "W" %>
+                                <%= form.radio_button :dealer, "W", :checked => false %>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center items-center m-4">
+                    <div>
+                        <%= form.check_box :vulnerable_ns %>
+                        <%= form.label :vulnerable_ns, "Vulnerable N/S" %>
+                    </div>
+                    <div>
+                        <%= form.check_box :vulnerable_ew %>
+                        <%= form.label :vulnerable_ew, "Vulnerable E/W" %>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center bg-green-500 p-2 rounded-md">
+                <%= form.submit %>
+            </div>
+        <% end %>
+    </div>
+</div>

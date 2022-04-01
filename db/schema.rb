@@ -53,6 +53,13 @@ ActiveRecord::Schema[7.0].define(version: 2022_03_21_095135) do
   create_table "games", force: :cascade do |t|
     t.text "content"
     t.bigint "game_set_id"
+    t.string "north_cards"
+    t.string "east_cards"
+    t.string "south_cards"
+    t.string "west_cards"
+    t.boolean "vulnerable_north_south"
+    t.boolean "vulnerable_east_west"
+    t.string "dealer"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["game_set_id"], name: "index_games_on_game_set_id"

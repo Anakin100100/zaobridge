@@ -1,24 +1,6 @@
 <div>
-    <h1 class="text-xl font-bold text-center my-4">Game sets</h1>
-    <div class="flex justify-center">
-        <button class="bg-green-500 hover:bg-green-700 m-2 font-semibold p-4 text-center rounded-md"
-                data-reflex="click->Counter#render_game_sets">
-            All game sets
-        </button>
-         <button class="bg-green-500 hover:bg-green-700 m-2 font-semibold p-4 text-center rounded-md"
-                data-reflex="click->Counter#render_new_game_set">
-           New game set
-        </button>
-         <button class="bg-green-500 hover:bg-green-700 m-2 font-semibold p-4 text-center rounded-md"
-                data-reflex="click->Counter#render_3">
-            BUTTON 3 
-         </button>
-         <button class="bg-green-500 hover:bg-green-700 m-2 font-semibold p-4 text-center rounded-md"
-                data-reflex="click->Counter#render_4">
-            BUTTON 4 
-         </button>
-    </div>
+    <%= render "game_sets/game_set_buttons" %>
     <div id="main_content">
-        <%= render "game_sets/game_sets" %>
+        <%= render "game_sets/game_sets", game_sets: @game_sets %>
     </div>
-  </div>
+</div>

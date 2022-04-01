@@ -1,17 +1,31 @@
 <div class="m-2">
-    <div class="grid grid-cols-6 grid-rows-4 m-4 bg-transparent rounded-lg bg-orange-400">
-        <div class=" row-span-4 col-span-3 h-[30rem] w-[15rem] flex justify-center items-center">
-            <p>ROZDANIE</p>
-        </div>
-        <div class=" row-span-2  col-span-3 h-[15rem] w-[30rem] col-start-4 flex justify-center items-center">
-            <div class="flex-col space-y-2">
-                <% for card_color in ["Spades", "Hearts", "Diamonds", "Clubs"] %>
-                    <%= render "game_sets/card_row", card_color: card_color %>
-                <% end %>
+    <div class="flex-col flex">
+        <h2 class="font-semibold text-xl text-center">Game <%= game.id %></h2>
+        <div class="grid grid-cols-6 h-[30rem] w-[60rem] grid-rows-4 m-4 bg-transparent rounded-lg bg-orange-400">
+            <div class="row-span-4 col-span-3 h-[30rem] w-[30rem] flex flex-col justify-center items-center">
+                <p>Cards North: <%= game.north_cards %></p>
+                <p>Cards East: <%= game.east_cards %></p>
+                <p>Cards South: <%= game.east_cards %></p>
+                <p>Cards West: <%= game.east_cards %></p>
+                <p>Vulnerable N/S: <%= game.vulnerable_north_south %></p>
+                <p>Vulnerable E/V: <%= game.vulnerable_east_west %></p>
+                <p>Dealer: <%= game.dealer %></p>
             </div>
-        </div>
-        <div class="row-span-2 col-span-3 h-[15rem] w-[30rem] col-start-4 row-start-3 flex justify-center items-center">
-            <p>LICYTACJA</p>
+            <div class=" row-span-2  col-span-3 h-[15rem] w-[30rem] col-start-4 flex justify-center items-center">
+                <div class="flex flex-row" data-turbo="false">
+                    <button class="bg-green-500 hover:bg-green-700 m-2 font-semibold p-4 text-center rounded-md">
+                       <%= link_to "Edit", edit_game_path(game)%>
+                    </button>
+                    <button class="bg-green-500 hover:bg-green-700 m-2 font-semibold p-4 text-center rounded-md"
+                            data-reflex="click->Counter#delete_game"
+                            data-game-id="<%= game.id %>">
+                        "Destroy"
+                     </button>
+                </div>
+            </div>
+            <div class="row-span-2 col-span-3 h-[15rem] w-[30rem] col-start-4 row-start-3 flex justify-center items-center">
+                <p>LICYTACJA</p>
+            </div>
         </div>
     </div>
 </div>

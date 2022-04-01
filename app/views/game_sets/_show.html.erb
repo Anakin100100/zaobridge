@@ -1,0 +1,14 @@
+<div id="main_content">
+    <%= render "game_sets/game_set_buttons" %>
+    <h1 class="text-xl font-bold text-center my-4">Game set <%=game_set.name%></h1>
+        <div class="flex justify-center">
+            <button class="bg-green-500 hover:bg-green-700 m-2 w-[70%] font-semibold p-4 text-center rounded-md">
+                <%= link_to "Add new game", new_game_path(game_set_id: game_set.id) %>
+            </button>
+        </div>
+    <div class="pb-4">     
+        <% game_set.games.each do |game| %>
+            <%= render "game_sets/game", game: game %>
+        <% end %>
+    </div>
+</div>
