@@ -1,7 +1,6 @@
 class CreateGames < ActiveRecord::Migration[7.0]
   def change
     create_table :games do |t|
-      t.text :content
       t.belongs_to :game_set
       t.string :north_cards
       t.string :east_cards

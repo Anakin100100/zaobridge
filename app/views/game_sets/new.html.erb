@@ -7,7 +7,7 @@
         <%= form_with model: @game_set, class: "text-center" do |form| %>
             <div>
                 <%= form.label :name, class: "block mb-2" %>
-                <%= form.text_field :name, class: "shadow appearance-none border rounded py-2 px-3 leading-tight focus:outline-none focus:shadow-outline" %><br>
+                <%= form.text_field :name, class: "shadow appearance-none border rounded py-2 px-3 leading-tight focus:outline-none focus:shadow-outline", id: "name_field" %><br>
             </div>
             <button class="py-1 mt-4 px-2 bg-green-300 hover:bg-green-500 rounded-md">
                 <%= form.submit%>

@@ -13,5 +13,19 @@ RSpec.describe "Pages", type: :system do
         visit root_path
         expect(page).to have_content("Log In")
     end
+
+    it "renders main content when a logged in user visits the root path" do
+      login_as(create(:user))
+      visit root_path
+      expect(page).to have_content("main page")
+    end
+
+    it "loggs out the currently logged in user after clicking the logout button" do
+      login_as(create(:user))
+      visit root_path
+      click_button "Logout"
+      expect(page).to have_content("Log In")
+    end
+
   end
 end

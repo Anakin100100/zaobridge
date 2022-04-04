@@ -51,7 +51,6 @@ ActiveRecord::Schema[7.0].define(version: 2022_03_21_095135) do
   end
 
   create_table "games", force: :cascade do |t|
-    t.text "content"
     t.bigint "game_set_id"
     t.string "north_cards"
     t.string "east_cards"
