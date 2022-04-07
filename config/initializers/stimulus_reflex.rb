@@ -11,7 +11,6 @@ StimulusReflex.configure do |config|
 
   config.on_failed_sanity_checks = :warn
 
-
   # config.on_failed_sanity_checks = :exit
 
   # Enable/disable exiting / warning when there's a new StimulusReflex release

@@ -1,10 +1,8 @@
+# frozen_string_literal: true
+
 class PagesController < ApplicationController
-    before_action :authenticate_user!, except: [:landing]
-    def index 
+  before_action :authenticate_user!, except: [:landing]
+  def index; end
 
-    end
-
-    def landing
-
-    end
+  def landing; end
 end

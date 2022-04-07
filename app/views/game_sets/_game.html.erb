@@ -1,24 +1,72 @@
 <div class="m-2">
     <div class="flex-col flex">
-        <h2 class="font-semibold text-xl text-center">Game <%= game.id %></h2>
+        <h2 class="font-semibold text-xl text-center">Game <%= game["game"].id %></h2>
         <div class="grid grid-cols-6 h-[30rem] w-[60rem] grid-rows-4 m-4 bg-transparent rounded-lg bg-orange-400">
             <div class="row-span-4 col-span-3 h-[30rem] w-[30rem] flex flex-col justify-center items-center">
-                <p>Cards North: <%= game.north_cards %></p>
-                <p>Cards East: <%= game.east_cards %></p>
-                <p>Cards South: <%= game.east_cards %></p>
-                <p>Cards West: <%= game.east_cards %></p>
-                <p>Vulnerable N/S: <%= game.vulnerable_north_south %></p>
-                <p>Vulnerable E/V: <%= game.vulnerable_east_west %></p>
-                <p>Dealer: <%= game.dealer %></p>
+                <div class="grid grid-cols-3 grid-rows-3">
+                    <div class="col-start-2 w-[10rem] h-[10rem] flex items-center justify-center">
+                        <div class="flex flex-col text-center">
+                            <p>North</p>
+                            <span><span>♠</span> <%= game["cards"]["north"]["spades"]%></span>
+                            <span><span class="text-xs text-red-600">♥</span> <%= game["cards"]["north"]["hearts"]%></span>
+                            <span><span class="text-red-600">♦</span> <%= game["cards"]["north"]["diamonds"]%></span>
+                            <span><span>♣</span> <%= game["cards"]["north"]["clubs"]%></span>
+                        </div>
+                    </div>
+                    <div class="col-start-2 row-start-3 w-[10rem] h-[10rem] flex items-center justify-center">
+                        <div class="flex flex-col text-center">
+                            <p>East</p>
+                            <span><span>♠</span> <%= game["cards"]["east"]["spades"]%></span>
+                            <span><span class="text-xs text-red-600">♥</span> <%= game["cards"]["east"]["hearts"]%></span>
+                            <span><span class="text-red-600">♦</span> <%= game["cards"]["east"]["diamonds"]%></span>
+                            <span><span>♣</span> <%= game["cards"]["east"]["clubs"]%></span>
+                        </div>
+                    </div>
+                    <div class="row-start-2 w-[10rem] h-[10rem] flex items-center justify-center">
+                        <div class="flex flex-col text-center">
+                            <p>West</p>
+                            <span><span>♠</span> <%= game["cards"]["west"]["spades"]%></span>
+                            <span><span class="text-xs text-red-600">♥</span> <%= game["cards"]["west"]["hearts"]%></span>
+                            <span><span class="text-red-600">♦</span> <%= game["cards"]["west"]["diamonds"]%></span>
+                            <span><span>♣</span> <%= game["cards"]["west"]["clubs"]%></span>
+                        </div>
+                    </div>
+                    <div class="row-start-2 col-start-3 w-[10rem] h-[10rem] flex items-center justify-center">
+                        <div class="flex flex-col text-center">
+                            <p>South</p>
+                            <span><span>♠</span> <%= game["cards"]["south"]["spades"]%></span>
+                            <span><span class="text-xs text-red-600">♥</span> <%= game["cards"]["south"]["hearts"]%></span>
+                            <span><span class="text-red-600">♦</span> <%= game["cards"]["south"]["diamonds"]%></span>
+                            <span><span>♣</span> <%= game["cards"]["south"]["clubs"]%></span>
+                        </div>
+                    </div>
+                    <div class="col-start-2 row-start-2 w-[10rem] h-[10rem] flex items-center justify-center flex-col">
+                        <div class="flex flex-col text-center">
+                            <div>
+                                <p>Dealer: <%= game["game"].dealer  %></p>
+                            </div>
+                            <div>
+                                <% if game["game"].vulnerable_north_south %>
+                                    <p class="text-red-600">Vulnerable N/S</p>
+                                <% end %>
+                            </div>
+                            <div>
+                                <% if game["game"].vulnerable_east_west %>
+                                    <p class="text-red-600">Vulnerable E/W</p>
+                                <% end %>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class=" row-span-2  col-span-3 h-[15rem] w-[30rem] col-start-4 flex justify-center items-center">
                 <div class="flex flex-row" data-turbo="false">
                     <button class="bg-green-500 hover:bg-green-700 m-2 font-semibold p-4 text-center rounded-md">
-                       <%= link_to "Edit", edit_game_path(game)%>
+                       <%= link_to "Edit", edit_game_path(game["game"])%>
                     </button>
                     <button class="bg-green-500 hover:bg-green-700 m-2 font-semibold p-4 text-center rounded-md"
                             data-reflex="click->Counter#delete_game"
-                            data-game-id="<%= game.id %>">
+                            data-game-id="<%= game['game'].id %>">
                         Destroy
                      </button>
                 </div>

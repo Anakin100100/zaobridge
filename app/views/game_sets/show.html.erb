@@ -7,7 +7,7 @@
             </button>
         </div>
     <div class="pb-4">     
-        <% @game_set.games.each do |game| %>
+        <% @games.each do |game| %>
             <%= render "game_sets/game", game: game %>
         <% end %>
     </div>
