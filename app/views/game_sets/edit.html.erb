@@ -1,1 +1,17 @@
-<p>edit game set</p>
+<div id="main_content">
+    <%= render "game_sets/game_set_buttons" %>
+    <h1 class="text-center font-semibold m-2">
+        Edit game set
+    </h1>
+    <div class="bg-slate-300 rounded-md p-4">
+        <%= form_with model: @game_set, class: "text-center" do |form| %>
+            <div>
+                <%= form.label :name, class: "block mb-2" %>
+                <%= form.text_field :name, :value => @game_set.name, class: "shadow appearance-none border rounded py-2 px-3 leading-tight focus:outline-none focus:shadow-outline", id: "name_field" %><br>
+            </div>
+            <button class="py-1 mt-4 px-2 bg-green-300 hover:bg-green-500 rounded-md">
+                <%= form.submit%>
+            </button>
+        <% end %>
+    </div>
+</div>

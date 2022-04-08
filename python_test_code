@@ -1,0 +1,10 @@
+import endplay.parsers.json as json
+import endplay.parsers.pbn as pbn
+import json as j
+f = open("example.pbn")
+boards = pbn.load(f)
+boards[0].info
+data = json.dumps(boards)
+parsed = json.loads(data)
+print(json.dumps(parsed, indent=4, sort_keys=True))
+
