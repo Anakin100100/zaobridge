@@ -6,7 +6,7 @@ class CounterReflex < ApplicationReflex
   def delete_game_set
     @game_set = GameSet.find(element.dataset['game_set-id'])
     @game_set.destroy
-    @game_sets = GameSet.where(user_id: current_user.id)
+    @game_sets = GameSet.all
     morph '#main_content', render(partial: 'game_sets/game_sets', locals: { game_sets: @game_sets })
   end
 
