@@ -24,6 +24,9 @@ gem 'puma', '~> 5.0'
 # database
 gem 'pg'
 
+#apm 
+gem 'elastic-apm'
+
 # auth
 gem 'devise'
 

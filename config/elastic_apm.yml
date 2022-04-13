@@ -1,0 +1,12 @@
+# Set the service name - allowed characters: a-z, A-Z, 0-9, -, _ and space
+# Defaults to the name of your Rails app
+service_name: 'my-service'
+
+# Use if APM Server requires a secret token
+secret_token: 'ZueeN56IKsNj5DTlXl'
+
+# Set the custom APM Server URL (default: http://localhost:8200)
+server_url: 'https://f6f1547e9d534e81bf379eda7666eeeb.apm.eu-west-1.aws.cloud.es.io:443'
+
+# Set the service environment
+environment: 'production'
